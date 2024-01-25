@@ -1,0 +1,19 @@
+# _config.yml
+
+# Other configuration...
+
+# Redirects
+redirects:
+  - from: "/1"
+    to: "https://www.generalsoft.com"
+  - from: "/2"
+    to: "https://nasim.us"
+  - from: "/3"
+    to: "https://nasim.ae"
+  - from: "/4"
+    to: "https://www.linkedin.com/in/generalsoft"
+  - from: "/5"
+    to: "https://www.youtube.com/watch?v=Iuo7jyLb48Y&t=6s"
+  # Add more rules for other paths
+  # - from: "/x"
+  #   to: "https://example.com/x"
