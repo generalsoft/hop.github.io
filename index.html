@@ -19,17 +19,17 @@
                 '1': 'https://generalsoft.com',
                 '2': 'https://nasim.us',
                 '3': 'https://nasim.ae',
-                '4': 'www.linkedin.com/in/generalsoft',
-                '5': 'www.youtube.com/watch?v=Iuo7jyLb48Y&t=6s'
+                '4': 'https://www.linkedin.com/in/generalsoft',
+                '5': 'https://www.youtube.com/watch?v=Iuo7jyLb48Y&t=6s'
             };
 
             // Check if the path exists in the redirections object
             if (path in redirections) {
                 // Redirect to the corresponding destination
-                window.location.href = redirections[path];
+                window.open(redirections[path], '_blank');
             } else {
                 // Redirect to a default destination if the path is not found
-                window.location.href = 'https://generalsoft.com';
+                window.open('https://generalsoft.com', '_blank');
             }
         }
 
